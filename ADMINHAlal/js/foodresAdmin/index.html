@@ -1,0 +1,99 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Foodres</title>
+<link href="stylesheets/common.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery.js"></script>
+    
+<script>
+    $(document).ready(function() {
+    var onSession = $.ajax({ 
+        type: "POST", 
+        url: "php/adminLogin.php?do=check", 
+        async: false 
+    }).responseText;
+                
+    if(onSession == "TRUE") {
+        alert("You are already logged in. Please log out first to use other account.");
+        window.location = "index.html";
+    }
+    
+        $('#loginBtn').click(function() {
+            loginAdmin();
+        });
+        
+        $('#loginBtn').keyup(function(e) {
+            if(e.keyCode == 13) {
+                loginAdmin();
+            }
+        });
+    });
+    
+    function loginAdmin() {
+        var uname = $('#uname').val();
+        var pword = $('#pword').val(); 
+        //alert('username='+uname+' && password='+pword);
+                
+         if(uname != "" && pword != "") {
+            var status = $.ajax( { 
+                type: 'POST', 
+                url: 'php/adminLogin.php?do=login&&uname='+uname+'&&pword='+pword, 
+                async: false 
+            }).responseText;
+            //alert('status='+status);
+         
+    
+            if(status == 'LOGIN') {
+                window.location = 'adminPage.html';
+                }
+             else if(status == 'XLOGIN') {
+                    alert("Invalid Login");
+                    window.location = 'index.html';
+                }
+             else if(status == 'IN SESSION') {
+                alert('You are already logged in. Please log out first to use other account.');
+                window.location = "index.html";
+            }
+            else {
+                alert('Wrong Password');
+                window.location = "index.html";
+            }
+        } 
+        else {
+            alert('Please enter your Username & Password');
+        }
+    }
+</script>
+    
+</head>
+<body>
+	<!-- Start Header -->
+	<div id="header">
+		<div class="container">
+			<h1><a href="#" title="FOODRES ADMIN SITE">FOODRES ADMIN SITE<span></span></a></h1>
+		</div>
+	</div>
+	<!-- Start Main Content -->
+	<div id="main" class="container">
+        <div class="wrap">
+            <div class="avatar"><img src="images/logo-foodres.png"></div>
+            
+            <form>
+                <div class="input">
+                    <div class="blockinput">
+                        <input id="uname" type="mail" placeholder="Email">
+                    </div>
+                    <div class="blockinput">
+                        <input id="pword" type="password" placeholder="Password">
+                    </div>
+                </div>
+                <input id="loginBtn" class="loginButton" type="button" value="Login">
+            </form>
+                
+            <a href="" class="forgot_link">Forgot your password?</a>
+            <a href="adminRegister.html" class="forgot_link">New User</a>
+        </div>
+    </div>
+</body>
+</html>

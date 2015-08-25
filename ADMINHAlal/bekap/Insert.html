@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Bobdomo.com japan Halal Tourism</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+	<script type="text/javascript">
+	document.getElementById('restaurant').style.display="none";
+	$("#restaurant").css("display","none");
+	</script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class="logo"><b>Halal Tourism</b></a>
+            <!--logo end-->
+            <div class="nav notify-row" id="top_menu">
+                <!--  notification start -->
+                <ul class="nav top-menu">
+                    <!-- settings start -->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                            <i class="fa fa-tasks"></i>
+                            <span class="badge bg-theme">4</span>
+                        </a>
+                        <ul class="dropdown-menu extended tasks-bar">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">You have 4 pending tasks</p>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">DashGum Admin Panel</div>
+                                        <div class="percent">40%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Database Update</div>
+                                        <div class="percent">60%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Product Development</div>
+                                        <div class="percent">80%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Payments Sent</div>
+                                        <div class="percent">70%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                            <span class="sr-only">70% Complete (Important)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="external">
+                                <a href="#">See All Tasks</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- settings end -->
+                    <!-- inbox dropdown start-->
+                    <li id="header_inbox_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="badge bg-theme">5</span>
+                        </a>
+                        <ul class="dropdown-menu extended inbox">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">You have 5 new messages</p>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-zac.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Zac Snider</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                    <span class="message">
+                                        Hi mate, how is everything?
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-divya.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Divya Manian</span>
+                                    <span class="time">40 mins.</span>
+                                    </span>
+                                    <span class="message">
+                                     Hi, I need your help with this.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-danro.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Dan Rogers</span>
+                                    <span class="time">2 hrs.</span>
+                                    </span>
+                                    <span class="message">
+                                        Love your new Dashboard.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="assets/img/ui-sherman.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Dj Sherman</span>
+                                    <span class="time">4 hrs.</span>
+                                    </span>
+                                    <span class="message">
+                                        Please, answer asap.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">See all messages</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- inbox dropdown end -->
+                </ul>
+                <!--  notification end -->
+            </div>
+            <div class="top-menu">
+            	<ul class="nav pull-right top-menu">
+                    <li><a class="logout" href="login.html">Logout</a></li>
+            	</ul>
+            </div>
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              	  <p class="centered"><a href="profile.html"><img src="assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">BobDomo</h5>
+              	  	
+                  <li class="mt">
+                      <a href="index.html">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+
+                 <!-- <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-desktop"></i>
+                          <span>UI Elements</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="general.html">General</a></li>
+                          <li><a  href="buttons.html">Buttons</a></li>
+                          <li><a  href="panels.html">Panels</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-cogs"></i>
+                          <span>Components</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="calendar.html">Calendar</a></li>
+                          <li><a  href="gallery.html">Gallery</a></li>
+                          <li><a  href="todo_list.html">Todo List</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a class="active" href="javascript:;" >
+                          <i class="fa fa-book"></i>
+                          <span>Extra Pages</span>
+                      </a>
+                      <ul class="sub">
+                          <li class="active"><a  href="blank.html">Blank Page</a></li>
+                          <li><a  href="login.html">Login</a></li>
+                          <li><a  href="lock_screen.html">Lock Screen</a></li>
+                      </ul>
+                  </li>
+                 --> <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-tasks"></i>
+                          <span>Forms</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="Insert.html">Insert Restaurant Data</a></li>
+						  <li><a  href="InsertMosque.html">Insert Mosque Data</a></li>
+                          <li><a  href="Update.html">Update Data</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-th"></i>
+                          <span>Data Tables</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="basic_table.html">Basic Table</a></li>
+                          <li><a  href="responsive_table.html">Responsive Table</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class=" fa fa-bar-chart-o"></i>
+                          <span>Charts</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="morris.html">Morris</a></li>
+                          <li><a  href="chartjs.html">Chartjs</a></li>
+                      </ul>
+                  </li>
+
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper site-min-height">
+          	<h3><i class="fa fa-angle-right"></i> Insert Data</h3>
+          	<div class="row mt">
+          		<div class="col-lg-12">
+          		<p></p>
+                    <div class="row mt">
+                        <div class="col-lg-12">
+                            <div class="form-panel">
+                                <h4 class="mb"><i class="fa fa-angle-right"></i> New Data</h4>
+                                <form class="form-horizontal style-form" action="InsertRestaurant.php" method="POST">
+                                   <!--  <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Premise Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div> -->
+                                   
+								   <div class="form-group">
+                                    <label class="col-sm-2 col-sm-2 control-label">Type Of Premise</label>
+                                        <!-- <div class="col-sm-10">
+                                        <select class="form-control" id="typepremise" onchange="insertFunction()">
+                                        <option value="1">Restaurant</option>
+                                        <option value="2">Mosque</option>
+                                    </select> -->
+									<div class="col-sm-10">
+									<select class="form-control" id="mySelect" onchange="myFunction()">
+									  <option value="1">Restaurant</option>
+									  <option value="2">Mosque</option>
+									</select>
+                                        </div>
+                                    </div>
+									<!-- <p>When you select a new car, a function is triggered which outputs the value of the selected car.</p> -->
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("mySelect").value;
+    <!-- document.getElementById("demo").innerHTML = "You selected: " + x; -->
+	if (x ==1){
+	$("#mosque").css("display","none");
+	$("#restaurant").css("display","block");
+	
+	//alert("succes");
+	}else{
+	$("#restaurant").css("display","none");
+	$("#mosque").css("display","block");
+	//alert("failed");
+	};
+	
+	};
+	
+
+</script>
+								<div id ="restaurant">
+								<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Premise Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Premise District</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" name="address" id="address">
+                                          
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Restaurant Halal Criteria</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control round-form" name="criteria">
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Restaurant URL</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control round-form" name="url">
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Restaurant Telephone Number</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control round-form" name="tel">
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Restaurant Type Of Cuisine</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control round-form" name="Cuisine">
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Range of Price</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control round-form" name="price">
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Estimated Rating</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control round-form" name="rating">
+                                        </div>
+                                    </div>
+                                   <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Full Address</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control round-form" name="fulladdress" id="">
+                                          <span class="help-block">Put Full address of the premise.</span>
+										</div>
+                                    </div>
+								   <!--  <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Restaurant coordinates</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" id="focusedInput" type="text" value="This is focused...">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Disabled</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Placeholder</label>
+                                        <div class="col-sm-10">
+                                            <input type="text"  class="form-control" placeholder="placeholder">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password"  class="form-control" placeholder="">
+                                        </div>
+                                    </div> -->
+                                    <div class="form-group">
+                                        <label class="col-lg-2 col-sm-2 control-label">Static control</label>
+										<button type="button" class="btn btn-theme" value="geocode" onclick="codeAddress()">Locate Coordinates</button>
+                                        <div class="col-lg-10">
+                                            <p class="form-control-static"><span id="address2" name=""></span></p>
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Restaurant coordinates</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" id="coordinate" name="coordinate" type="text" placeholder="Paste Coordinates from above section without ()">
+                                        </div>
+                                    </div>
+									<button type="submit" class="btn btn-theme02 btn-block">Submit Restaurant</button>
+                                </form>				
+								</div>
+							</div>
+						</div>
+						
+                            </div>
+							
+							
+							
+							<div id="mosque">
+							<div class="form-panel">
+							<form class="form-horizontal style-form" action="insertMosque.php" method="POST">
+								
+								<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Mosque Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" name="mname" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Mosque District</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" id="address3" class="form-control">
+                                            <!-- <span class="help-block">Put Full address of the premise.</span> -->
+                                        </div>
+                                    </div>
+                               
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Mosque URL</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" name="murl" class="form-control round-form">
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Mosque Tag</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" name="mtag" class="form-control round-form">
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Mosque Address</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" name="maddress" class="form-control round-form">
+                                        </div>
+                                    </div>
+									<!-- <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Restaurant Type Of Cuisine</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control round-form">
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Range of Price</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control round-form">
+                                        </div>
+                                    </div> -->
+                                   <!--  <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Restaurant coordinates</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" id="focusedInput" type="text" value="This is focused...">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Disabled</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Placeholder</label>
+                                        <div class="col-sm-10">
+                                            <input type="text"  class="form-control" placeholder="placeholder">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password"  class="form-control" placeholder="">
+                                        </div>
+                                    </div> -->
+                                    <div class="form-group">
+                                        <label class="col-lg-2 col-sm-2 control-label">Static control</label>
+										<button type="button" class="btn btn-theme" value="geocode" onclick="codeAddress2()">Locate Coordinates</button>
+                                        <div class="col-lg-10">
+                                            <p class="form-control-static"><span id="address4" name=""></span></p>
+                                        </div>
+                                    </div>
+									<div class="form-group">
+                                        <label class="col-sm-2 col-sm-2 control-label">Mosque coordinates</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" id="coordinate" name="mcoordinate" type="text" placeholder="Paste Coordinates from above section without ()">
+                                        </div>
+                                    </div>
+								
+								<button type="submit" class="btn btn-theme btn-block">Submit Mosque</button>
+							</form>
+							</div>
+							</div>
+                        </div><!-- col-lg-12-->
+                    </div><!-- /row -->
+
+                </div>
+          	</div>
+			
+		</section><! --/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2014 - Alvarez.is
+              <a href="blank.html#" class="go-top">
+                  <i class="fa fa-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+	<script>
+	var geocoder;
+var map;
+function initialize() {
+  geocoder = new google.maps.Geocoder();
+  var latlng = new google.maps.LatLng(-34.397, 150.644);
+  var mapOptions = {
+    zoom: 8,
+    center: latlng
+  }
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+}
+
+	
+	function codeAddress() {
+  var address = document.getElementById('address').value;
+  //alert(address);
+  geocoder.geocode( { 'address': address}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      //map.setCenter(results[0].geometry.location);
+      //alert("succes");
+	  //var marker = new google.maps.Marker({
+    //      map: map,
+  //        position: results[0].geometry.location
+//      });
+    var a = results[0].geometry.location;
+	//alert(a);
+	document.getElementById("address2").innerHTML = a;
+	} else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
+}
+
+	function codeAddress2() {
+  var address = document.getElementById('address3').value;
+  alert(address);
+  geocoder.geocode( { 'address': address}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      //map.setCenter(results[0].geometry.location);
+      alert("succes");
+	  //var marker = new google.maps.Marker({
+    //      map: map,
+  //        position: results[0].geometry.location
+//      });
+    var a = results[0].geometry.location;
+	//alert(a);
+	document.getElementById("address4").innerHTML = a;
+	} else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
+}
+
+
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+	</script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+
+
+    <!--common script for all pages-->
+    <script src="assets/js/common-scripts.js"></script>
+
+    <!--script for this page-->
+    
+  <script>
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+
+  </script>
+
+  </body>
+</html>

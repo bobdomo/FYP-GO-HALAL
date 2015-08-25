@@ -1,0 +1,59 @@
+[01-Feb-2015 21:20:11 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/api.php:79) in /home/haxestud/public_html/api/api.php on line 82
+[01-Feb-2015 21:20:11 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/api.php:79) in /home/haxestud/public_html/api/api.php on line 83
+[01-Feb-2015 21:32:25 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/haxestud/public_html/api/interface/update_hs.php on line 20
+[18-Feb-2015 02:35:36 America/New_York] PHP Warning:  scandir(../../patch/): failed to open dir: No such file or directory in /home/haxestud/public_html/api/interface/update_hs.php on line 17
+[18-Feb-2015 02:35:36 America/New_York] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/haxestud/public_html/api/interface/update_hs.php on line 17
+[18-Feb-2015 02:35:36 America/New_York] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/haxestud/public_html/api/interface/update_hs.php on line 42
+[18-Feb-2015 02:35:36 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:17) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:35:36 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:17) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:36:21 America/New_York] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/haxestud/public_html/api/interface/update_hs.php on line 42
+[18-Feb-2015 02:36:21 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:42) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:36:21 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:42) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:36:30 America/New_York] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/haxestud/public_html/api/interface/update_hs.php on line 42
+[18-Feb-2015 02:36:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:42) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:36:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:42) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:36:35 America/New_York] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/haxestud/public_html/api/interface/update_hs.php on line 42
+[18-Feb-2015 02:36:35 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:42) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:36:35 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:42) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:36:45 America/New_York] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/haxestud/public_html/api/interface/update_hs.php on line 42
+[18-Feb-2015 02:36:45 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:42) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:36:45 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:42) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:37:16 America/New_York] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/haxestud/public_html/api/interface/update_hs.php on line 42
+[18-Feb-2015 02:37:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:18) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:37:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:18) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:38:06 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:33) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:38:06 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:33) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:38:24 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:33) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:38:24 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:33) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:40:51 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:31) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:40:51 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:31) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:41:59 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 34
+[18-Feb-2015 02:41:59 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 34
+[18-Feb-2015 02:41:59 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 34
+[18-Feb-2015 02:41:59 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 34
+[18-Feb-2015 02:41:59 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 34
+[18-Feb-2015 02:41:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:34) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:41:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:34) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:42:23 America/New_York] PHP Parse error:  syntax error, unexpected 'array_push' (T_STRING), expecting ',' or ';' in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:29 America/New_York] PHP Parse error:  syntax error, unexpected 'array_push' (T_STRING), expecting ',' or ';' in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:36 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:36 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:36 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:36 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:36 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:36 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:34) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:42:36 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:34) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:42:53 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:53 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:53 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:53 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:53 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:42:53 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:34) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:42:53 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:34) in /home/haxestud/public_html/api/api.php on line 125
+[18-Feb-2015 02:43:22 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:43:22 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:43:22 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:43:22 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:43:22 America/New_York] PHP Warning:  Illegal offset type in /home/haxestud/public_html/api/interface/update_hs.php on line 35
+[18-Feb-2015 02:43:22 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:34) in /home/haxestud/public_html/api/api.php on line 123
+[18-Feb-2015 02:43:22 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/haxestud/public_html/api/interface/update_hs.php:34) in /home/haxestud/public_html/api/api.php on line 125
